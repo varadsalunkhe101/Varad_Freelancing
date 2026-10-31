@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: varad-salunkhe-website
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
